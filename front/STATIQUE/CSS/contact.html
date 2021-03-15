@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>docoument</title>
+    <link rel="stylesheet" href="styl2/style2.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <img src="img/jarditou_logo.jpg" alt="logo" title="logo" />
+      </div>
+      <h1 class="box">Tout le jardin</h1>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="tableau.html">Tableau</a></li>
+        <li><a href="contact.html">Formulaire</a></li>
+      </ul>
+    </nav>
+
+    <img src="img/promotion.jpg" alt="logo" />
+    <br />
+    <h1>Contact</h1>
+
+    <hr />
+
+    <form action="#" method="post">
+      <p>* Ces zones sont obligatoires</p>
+      <fieldset>
+        <legend>Vos coordonnées</legend>
+
+        <label for="vname">Votre name* :</label>
+        <input type="text" name="vname" id="vname" />
+        <br />
+        <label for="vprénome">Votre prénome* :</label>
+        <input type="text" name="vprénome" id="vprénome" />
+        <br />
+        <br />
+        Sexe* :
+        <input type="radio" name="féminin" id="féminin" />
+        <label for="féminin">Féminin</label>
+
+        <input type="radio" id="masculin" />
+        <label for="masculin">Masculin</label>
+        <br />
+        <br />
+
+        <label for="date">Date de naissance* :</label>
+        <input type="date" name="date" id="date" />
+        <br />
+        <label for="cp"> Code postal* :</label>
+        <input type="text" id="cp" name="cp" />
+        <br />
+        <label for="adr">Adresse</label>
+        <input type="text" id="adr" name="adr" />
+        <br />
+        <label for="ville">Ville* :</label>
+        <input type="text" id="ville" name="ville" />
+        <br />
+        <label for="email">Email* :</label>
+        <input type="text" id="email" placeholder="deve.loper@afpa.fr" />
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>>Votre demande</legend>
+
+        <label for="sujet">Sujet* :</label>
+        <select id="sujet" size="1">
+          <option value="select">Veuillez séléctionner un sujet</option>
+          <option>Mes commandes</option>
+          <option> Question sur un produit</option>
+          <option>Réclamation</option>
+          <option>Autres</option>
+        </select>
+        <br />
+        <label for="vq">Votre question* :</label>
+        <textarea id="vq"></textarea>
+
+        <br />
+      </fieldset>
+      <br />
+
+      <input type="checkbox" id="*" name="*" value="*" />
+      <label for="*">
+        * J'accepte le traitement informatique de ce formulaire</label
+      >
+
+      <br />
+      <br />
+      <input type="submit" name="envoyer" id="Envoyer" />
+      <input type="reset" value="Annuler" name="annuler" id="Annuler" />
+
+      <hr />
+
+      <ul class="menu">
+        <li><a href="#">Mention légales</a></li>
+        <li><a href="#">Horaires</a></li>
+        <li><a href="#">Plane du site</a></li>
+      </ul>
+    </form>
+  </body>
+</html>

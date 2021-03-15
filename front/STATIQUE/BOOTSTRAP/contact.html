@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>docoument</title>
+  </head>
+
+  <body class="container">
+   <header class="row">
+      <div class="col d-none d-sm-block">
+       <img src="img/jarditou_logo.jpg" alt="logo" title="logo" height="50" width="150">
+      </div>
+
+
+        <h3 class="img-fluid col d-none d-sm-block text-right pt-2 display-5">le qualité depuis 70 ans</h3>
+    </header>
+
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+
+      <a class="navbar-brand" href="#" >Jardiyou.com</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+       <span class="navbar-toggler-icon"></span>
+         </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">  
+          <li class="nav-item"><a class="nav-link" href="index.html" >Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="tableau.html">Tableau</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Formulaire</a></li>
+        </ul>
+
+
+        <form class="form-inline my-lg-0" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Votre promotion">
+          <button class="btn btn-outline-success" type="submit">Rechercher</button>
+        </form>
+      </div>
+      </nav>
+         
+       <img class="img-fluid" src="img/promotion.jpg" alt="logo"><br>
+      
+
+       <form action="#" method="post">
+       <p>* Ces zones sont obligatoires</p>
+
+      <fieldset>
+        <legend>Vos coordonnées</legend>
+
+        <label for="vname">Nom*</label>
+        <input class="form-control" id="vname" type="text" placeholder="Veuillez saisir votre nom">
+        <br>
+
+        <label for="vprénome">Prénom* </label>
+        <input class="form-control" type="text"  id="vprénome" placeholder="Veuillez saisir votre prénom">
+        <br> <br>
+
+        Sexe* :
+        <input type="radio" name="féminin" id="féminin">
+        <label for="féminin">Féminin</label>
+
+        <input type="radio" id="masculin">
+        <label for="masculin">Masculin</label>
+        <br>
+        <br>
+    
+        <label for="date">Date de naissance* </label>
+        <input class="form-control" type="date"  id="date" >
+        <br>  
+
+        <label for="cp"> Code postal* </label>
+        <input class="form-control" type="text" id="cp" placeholder="">
+        <br>
+
+        <label for="adr">Adresse</label>
+        <input class="form-control" type="text" id="adr" placeholder="">
+        <br>
+
+        <label for="ville">Ville</label>
+        <input class="form-control" type="text" id="ville" placeholder="">
+        <br>
+
+        <label for="email">Email* </label>
+        <input class="form-control" type="text" id="email" placeholder="deve.loper@afpa.fr">
+      </fieldset>
+
+        <br>
+      <fieldset>
+       <legend>Votre demande</legend>
+
+        <label for="sujet">Sujet* </label>
+        <select class="form-control" id="sujet" size="1" aria-placeholder="Veuillez sélectionner un sujet"> 
+        <option value="select">Veuillez séléctionner un sujet</option>
+        <option>Mes commandes</option>
+        <option> Question sur un produit</option>
+        <option>Réclamation</option>
+        <option>Autres</option>
+    </select>
+        <br>
+
+        <label for="vq">Votre question* :</label>
+        <textarea class="form-control" id="vq"></textarea><br>
+      </fieldset>
+        
+
+        <input type="checkbox" id="*" name="*" value="*"> 
+        <label for="*" >  J'accepte le traitement informatique de ce formulaire</label>
+        <br>
+        <br>
+
+        <input class="btn btn-primary btn-dark border border-primary" type="reset" name="envoyer" id="Envoyer" value="Envoyer">
+        <input class="btn btn-primary btn-dark border border-primary" type="reset" value="Annuler" name="annuler" id="Annuler">
+        <br><br>
+
+        <footer class="navbar navbar-expand-lg bg-dark navbar-dark rounded">
+        <ul class="navbar-nav mr-auto text-white-50 mr-auto .text-black-50">
+          <li><a class="nav-link" href="#">Mention légales</a></li>
+          <li><a class="nav-link" href="#">Horaires</a></li>
+          <li><a class="nav-link" href="#">Plane du site</a></li>
+        </ul>
+        </footer>
+      </form>
+  </body>
+</html>
+
+
